@@ -27,7 +27,7 @@ internal abstract class ContactStoreTestBase {
             columnsToFetch = editedContact.columns
         ).first().first()
 
-        assertThat(actual, equalContents(editedContact))
+        assertThat(actual, equalTo(editedContact))
     }
 
     suspend fun assertContactUpdatedNoId(expected: MutableContact) {
