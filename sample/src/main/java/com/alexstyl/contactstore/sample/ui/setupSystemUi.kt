@@ -15,7 +15,7 @@ fun SetupSystemUi() {
 
     SideEffect {
         systemUiController.setSystemBarsColor(
-            color = Color.Transparent,
+            color = Color.Red,
             darkIcons = useDarkIcons
         )
     }
